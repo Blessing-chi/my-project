@@ -108,10 +108,10 @@ img{
     justify-content: space-between;
     align-items: center;
     padding-left: 30px;
-    flex-wrap: wrap;
+    flex-wrap:block;
 }
 .About .p{
-    width: 50%;
+    width: 40%;
     text-align: center;
     font-size:larger;
 }
