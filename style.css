@@ -101,23 +101,6 @@ img{
     height: 150px;
     border-radius: 20px;
     flex-direction:center;
-
-}
-.About.pic{
- display: flex;
- justify-content: centre;
-}
-.About .pic img{
-width:300Px
-height:300px
-border-radius:20px
-padding-right:100px
-}
-.About .p{
- text-align: left;
- margin:10px
- flex-wrap:wrap;
- word-spacing:10px;
 }
 .pre{
     margin-top: 20px;
@@ -147,6 +130,24 @@ label{
     text-align: center;
     font-family: roboto;
 }
+.About{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    flex-wrap: wrap;
+}
+.About .p{
+    width: 40%;
+    text-align: left;
+    font-size:larger;
+     margin: 10px;;
+    flex-wrap: wrap;
+    word-spacing: 10px;
+}
+.about.me.img{
+    width: 30px;
+}
 .About .pic{
     width: 50%;
     display: flex;
@@ -155,12 +156,6 @@ label{
 .About .pic img{
     width: 300px;
     height: 400px;
-}
-.About p{
-    text-align: left;
-    margin: 10px;;
-    flex-wrap: wrap;
-    word-spacing: 10px;
 }
 .pro{
     display: flex; 
